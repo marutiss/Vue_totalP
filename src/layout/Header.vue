@@ -1,7 +1,9 @@
 <template>
-  <div>
+  <div class="Header">
     <h1>Header</h1>
-    <router-link to="/login">로그인</router-link>
+    <a>
+      <router-link to='/login'>로그인</router-link>
+    </a>
   </div>
 </template>
 
@@ -12,12 +14,14 @@ export default {
 </script>
 
 <style>
-.header {
+.Header {
   text-align: center;
-  background-color: lightgray;
+  background-color: rgb(235, 205, 172);
 }
 
 a {
   color: #42b983;
+  padding: 15px;
+  border-radius: 5px;
 }
 </style>

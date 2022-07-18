@@ -3,7 +3,9 @@
   
   
     <Header/>
-    <router-view></router-view>
+    <router-view>
+       <router-link to='/login'>로그인</router-link>
+    </router-view>
     <Footer/>
   
 
