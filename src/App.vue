@@ -2,24 +2,13 @@
 
   
   
-    <Header/>
-    <router-view>
-       <router-link to='/login'>로그인</router-link>
-    </router-view>
-    <Footer/>
-  
-
-
-
-
-
+  <router-view></router-view>
 
 
 </template>
 
 <script>
-import Header from './layout/Header'
-import Footer from './layout/Footer'
+
 
 
 
@@ -27,13 +16,13 @@ export default {
   name: 'App',
   data(){
     return{
-      openModal : false
+      
     }
   },
   components: {
     
-    Header : Header,
-    Footer : Footer,
+    // Header : Header,
+    // Footer : Footer,
     
   }
 }

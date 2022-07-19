@@ -1,10 +1,8 @@
 <template>
-  <div>
- 
-    <h4>로그인</h4>
-    <button>테스트</button>
-  </div>
- 
+  
+  
+    <h4>아니 좀 출력하라고 싯발</h4>
+  
 </template>
 
 <script>
